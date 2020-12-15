@@ -48,15 +48,6 @@ The `datasets` directory should look like:
 - 최대한 비만 청소년을 집중적으로 선별해내기 위해, Precision보다 Recall의 성능을 선호
 - 따라서, F2-score , ROC 등의 성능을 비교
 
-    python train.py --data_path=datasets/jtbc
-    python train.py --data_path=datasets/park --initialize_path=PATH_TO_CHECKPOINT
-
-To train a multi-speaker model:
-
-    python train.py --data_path=datasets/jtbc,datasets/park
-
-If you don't have good and enough (10+ hours) dataset, it would be better to use `--initialize_path` to use a well-trained model as initial parameters.
-
 
 ## References
 
